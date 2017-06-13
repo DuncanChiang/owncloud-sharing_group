@@ -1,3 +1,11 @@
+<div id="emptycontent" class="hidden ownGroup">
+        <div class="icon-folder"></div>
+        <h2><?php p($l->t('No groups')); ?></h2>
+</div>
+<div id="emptycontent" class="hidden favoriteGroup">
+	<div class="icon-starred"></div>
+	<h2><?php p($l->t('No favorites')); ?></h2>
+</div>
 <table id="filestable" class="grouptable">
     <thead>
         <tr>
